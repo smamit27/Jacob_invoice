@@ -1,0 +1,24 @@
+import React from 'react'
+import NumberFormat from 'react-number-format'
+
+export default function NumberFormatter({
+  row,
+  column,
+  style = {},
+  className = '',
+  value,
+  type,
+  format,
+}) {
+  const additionalProps = {
+    decimalScale: 2,
+    fixedDecimalScale: true,
+    ...((column?.format === 'Percent' || format === 'Percent') ? { suffix: '%',  } : {}),
+    ...((column?.type === 'Currency' || type === 'Currency') ? { thousandsGroupStyle: 'thousand', thousandSeparator: true } : {})
+  }
+  return (
+    <span style={style} className={column?.type === 'Currency' || type === 'Currency' ? `currencyData ${className}` : className} >
+      <NumberFormat  {...additionalProps} value={(value !== undefined ? value : row[column.key]) || 0} displayType="text" />
+    </span>
+  )
+}

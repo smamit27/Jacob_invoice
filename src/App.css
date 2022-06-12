@@ -1,0 +1,396 @@
+/* 
+
+100 => Thin
+300 => Light
+400 => Regular
+500 => Medium
+600 => semibold 
+
+*/
+
+@font-face {
+  font-family: "Jacobs Chronos";
+  src: url("./assets/fonts/JacobsChronos_W_Rg.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Jacobs Chronos Bold";
+  src: url("./assets/fonts/JacobsChronos_W_Bd.woff2") format("woff2");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Jacobs Chronos light";
+  src: url("./assets/fonts/JacobsChronos_W_Lt.woff2") format("woff2");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "Jacobs Chronos heavy";
+  src: url("./assets/fonts/JacobsChronos_HeIt.ttf") format("ttf");
+  font-weight: heavy;
+}
+body {
+
+  font-family: "Jacobs Chronos";
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 24px;
+letter-spacing: -0.01em;
+background-color: #F7F7F7 !important;
+  color: #222222 !important;
+} 
+
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  font-family: "Jacobs Chronos";
+}
+
+#root {
+  height: 100%;
+}
+.ovflw--hide {
+  overflow: hidden;
+}
+
+.heavy {
+  font-family: 'Jacobs Chronos heavy' !important;
+}
+
+.bold {
+  font-family: 'Jacobs Chronos Bold' !important;
+}
+.light {
+  font-family: 'Jacobs Chronos light' !important;
+}
+.text-center {
+  text-align: center;
+}
+
+.MuiAppBar-colorPrimary {
+  color: white  !important;
+  background-color: #222222 !important;
+  box-shadow: none;
+  height: 56px;
+
+}
+.makeStyles-drawerClose-56 {
+  width: 56px !important;
+}
+.MuiPaper-root.MuiDrawer-paper.makeStyles-drawerClose-8.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.MuiPaper-elevation0 {
+  width: 56px !important;
+  height: 768px !important;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft{
+  overflow-y: hidden;
+}
+.css-11o2879-MuiDrawer-docked .MuiDrawer-paper{
+  width: calc(56px + 1px) !important
+}
+
+.MuiListItemIcon-root.css-cveggr-MuiListItemIcon-root {
+  min-width: 40px;
+}
+
+
+.MuiButtonBase-root.MuiListItem-root.MuiListItem-gutters.MuiListItem-padding.MuiListItem-button.Mui-selected{
+  width: 56px;
+  height: 56px;
+  color: #231edc;
+ 
+}
+
+.MuiButtonBase-root.MuiListItem-root.MuiListItem-gutters.MuiListItem-padding.MuiListItem-button.Mui-selected {
+  background-color: #fff;
+}
+.MuiButtonBase-root.MuiListItem-root.MuiListItem-gutters.MuiListItem-padding.MuiListItem-button{
+  background-color: #fff;
+}
+
+.MuiPaper-root.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.MuiPaper-elevation0 {
+  background-color: rgb(85, 85, 85) !important;
+  padding: 5px;
+}
+.Mui-active,
+.Mui-completed,
+.MuiStepIcon-root {
+  stroke: #ffffff !important;
+  fill: #000000 !important;
+
+}
+.MuiStepIcon-text {
+  fill: #000000 !important;
+}
+.MuiStepLabel-label {
+  margin-top: 8px !important;
+}
+.Mui-expanded {
+  margin: 0px !important;
+}
+
+/* for checkbox */
+.regular-checkbox {
+  -webkit-appearance: none;
+  background-color: #dcdcdc;
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+.regular-checkbox:checked {
+  background-color: #231edc;
+  color: #dcdcdc;
+}
+
+.regular-checkbox:checked:after {
+  content: "\2714";
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+}
+.errorCollection{
+  border : 1px solid #D72850 !important;
+}
+
+.is-loading {
+  width: 180px;
+  padding: 8px 16px;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  color: white;
+  line-height: 35px;
+  background: rgb(0 0 0 / 0.6);
+}
+.rdg-row-even {
+    background: #EDEDFC !important;
+}
+.rdg-row-odd {
+    background: #F8F8FE !important;
+}
+
+.rdg-cell.rdg-editor-cell{
+  border:1px solid #EBEBEB !important
+}
+.rdg-header-row > .rdg-cell-frozen-last{
+  border-right:none !important;
+  /* box-shadow: none; */
+}
+.rdg-cell-frozen-last{
+  border-right: 1px solid #333333 !important;
+}
+.rdg-row .rdg-cell {
+  font-size: 12px;
+  border: 0;
+}
+/* .rdg {
+  background: #f7f7f7;
+} */
+.rdg-header-white .rdg-header-row {
+  background-color: #fff;
+}
+.rdg-header-row {
+    background: #F7F7F7;
+}
+.rdg-editor-cell {
+    background: #fff;
+}
+
+.rdg-row:hover {
+    background-color: #F0F0F0;
+}
+.rdg-row:hover .rdg-editor-cell, .rdg-row:hover .rdg-cell {
+    background-color: #F0F0F0;
+}
+.react-grid-Cell {
+  border: none !important;
+}
+.rdg-cell-dragged-over {
+    background-color: red;
+}
+
+.rdg {
+  border: none;
+  border-radius: 4px;
+}
+.rdg-header-row .rdg-cell {
+  border-right: 0;
+  font-size: 10px;
+  font-family: 'Jacobs Chronos Bold';
+  text-transform: uppercase;
+  line-height: 15px;
+  white-space:unset;
+  display: flex;
+  align-items: center;
+}
+
+.rdg-editor-input {
+  appearance: none;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 0px 6px 0 6px;
+  border: 2px solid #ccc;
+  vertical-align: top;
+  color: var(--color);
+  background-color: var(--background-color);
+  font-family: inherit;
+  font-size: var(--font-size);
+}
+.rdg-editor-input:focus {
+  border-color:transparent;
+  outline: none;
+}
+.rdg-editor-input::placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.rdg-row .MuiOutlinedInput-notchedOutline {
+  border: transparent;
+  outline: none;
+}
+
+.rdg-editor-cell .MuiInputBase-input, .rdg-editor-cell .MuiOutlinedInput-root {
+  font-size: 12px;
+  padding-left: 5px !important;
+}
+
+.rdg-editor-cell .MuiFormControl-root {
+  height: 35px;
+  width: calc(100% - 4px);
+  margin-left: 2px;
+  margin-top: 2px;
+  background-color: #fff;
+}
+
+.rdg-editor-cell .MuiOutlinedInput-input {
+  font-size: 12px;
+}
+
+.rdg-editor-cell .MuiAutocomplete-inputRoot {
+  padding-right: 39px !important;
+}
+.rdg-cell .rdg-row-expander-container {
+  margin-left: 20px;
+  position: relative;
+}
+.rdg-cell .rdg-row-expander {
+  position: absolute;
+  left: -25px;
+  height: var(--row-height);
+  display: flex;
+  align-items: center;
+}
+
+.rdg-cell .rdg-cell-menu-container {
+  position: absolute;
+  right: 10px;
+  top: 45%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.rdg-cell-menu-button {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px !important;
+  background-color: #fff !important;
+}
+
+.rdg-row .rdg-cell .rdg-cell-menu-container {
+  display: none;
+}
+
+.rdg-row:hover .rdg-cell .rdg-cell-menu-container {
+  display: block;
+}
+
+.rdg-table-edit-button {
+  display: none;
+  align-items: center;
+}
+.rdg-row:hover .rdg-table-edit-button {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+iframe {
+  display: none;
+}
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit[tabindex="0"] {
+  border-bottom: 3px solid #231EDC;
+  color:#222222 !important;
+}
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit{
+  text-transform: capitalize;
+  border-bottom: 1px solid #E6E6E6;
+  color:#222222 !important;
+  opacity: 1;
+  ;
+}
+.allocateToTask{
+  text-decoration: underline;
+  color: #231EDC;
+}
+.allocateToTask:disabled{
+  color: #231EDC;
+  opacity: 0.6;
+}
+.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-edgeEnd.MuiIconButton-sizeMedium i{
+  color: #231EDC;
+}
+.MuiOutlinedInput-inpu.MuiInputBase-input.MuiInputBase-inputSizeSmall.MuiInputBase-inputAdornedEnd {
+  color:#777777;
+}
+.currencyData{
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+.userDefinedBtn{
+  color:#222222 !important;
+  border:1px solid #C8C8C8 !important;
+  text-transform: capitalize !important;
+}
+.rdg-cell[aria-selected="true"]{
+  box-shadow: inset 0 0 0 2px #231edc;
+}
+
+.text-link {
+  color: #231EDC;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.text-link .currencyData {
+  text-decoration: underline;
+}
+.MuiPickersDay-root.Mui-selected{
+  background-color: #231EDC !important;
+}
+.task_group_mapping{
+   color: #000000;
+   background:#000000;
+}
+.rdg-cell.rdg-editor-cell.rdg-editor-cell_ckeckbox[aria-selected="true"]{
+  border: none !important;
+  box-shadow: none;
+}
+
+.MuiAutocomplete-inputRoot.MuiOutlinedInput-root.MuiInputBase-sizeSmall .MuiAutocomplete-input{
+  font-size: 14px;
+  color: #222222 !important;
+  font-family: Jacobs Chronos;
+    font-style: normal;
+    font-weight: normal;
+}
+.fundingBudget_table .rdg-header-white .rdg-summary-row {border-bottom: 1px solid #666666;border-top:1px solid #666666;}
+.fundingBudgetTabs .Mui-selected{color:#222222 !important;}
+.fundingBudgetTabs .MuiTab-root{color:#222222 !important;}
+.fundingBudgetTabs{margin-left: 26px !important;}

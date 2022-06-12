@@ -1,0 +1,118 @@
+.createEventInvoiceModel__header{
+    height:72px;
+    background-color: #555555;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.createEventInvoiceModel__headerText{
+    font-size: 14px;
+    font-family: Jacobs Chronos;
+    color:white;
+}
+
+.createEventInvoiceModel__body{
+    background-color: white;
+}
+.createEventIvoiceModel__optionsContainer{
+    margin-top:15px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.createBatchInvoiceModel__tableContainer{
+padding: 0px 30px;
+}
+
+.createBatchInvoiceModel__buttonContainer{
+    display: flex;
+    padding:8px 30px;
+    justify-content: end;
+    border-top: 1px solid #EEEEEE;
+    
+}
+/*---------------------------BEM Naming Convetion---------------------------*/
+
+
+.invoiceOptions__container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invoiceHome__darkButton{
+    background-color: #555555 !important;
+    color: white !important;
+}
+
+
+.invoiceCreateEvent__button{
+background-color:#F0F0F0 !important;
+}
+
+.invoiceCreateEvent__buttonMarginRight{
+    margin-right: 20px !important;
+}
+
+.invoiceCreateEvent__button__rowsText{
+    font-family: Jacobs Chronos;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+
+.invoiceCreateEvent__downArrow{
+width:8.97px;
+height:6.17px;
+margin-left: 7px;
+}
+.createEventInvoicesModel__close{
+    color: white !important;
+}
+.css-heg063-MuiTabs-flexContainer{display: grid;
+}
+.EventDetailse_num{height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    background: #555555;
+    color: #ffffff;
+    position: absolute;
+    align-items: center;
+    padding-left: 0.44em;
+    
+    
+    };
+.EventDetailseInvoiceSub__header{border-bottom:1px solid #E1E1E1};
+.EventDetailseSub__headerText{padding-left: 2em;display: flex;}
+.EventDetailse_numText1{padding-left:1em;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 2.8em;
+    padding-top: 1px;
+}
+    .EventDetailse_num1{height: 24px;
+        width: 24px;
+        left: 25px;
+        top: 83px;
+        border-radius: 100%;
+        background: #555555;
+        color: #ffffff;
+        align-items: center;
+        padding-left: 0.444em;
+        position: sticky;
+        }
+        .EventDetailseSub__headerText1{
+        display: flex;
+        }
+        .EventDetailse_numText{font-size: 14px;
+            font-weight: bold;
+            position: sticky;
+            padding-top: 2px;
+            margin-left: 1em;
+        }
+
+
+

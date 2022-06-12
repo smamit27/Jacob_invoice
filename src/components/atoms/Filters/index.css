@@ -1,0 +1,12 @@
+.rdg-filter-tags {
+  margin: 0 5px 0 5px;
+}
+.rdg-cell .rdg-filter {
+  visibility: hidden;
+}
+.rdg-cell:hover .rdg-filter {
+  visibility: visible;
+}
+.rdg-cell .rdg-filter.rdg-filter-exist {
+  visibility: visible;
+}

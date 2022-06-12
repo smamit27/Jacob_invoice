@@ -1,0 +1,14 @@
+.addNewPeriodModal{width: 676px !important;
+    height: 600px}
+    .addNewPeriodHeader{height: 56px !important;}
+    .rdg-header-row label.rdg-checkbox-label{
+        display:none;
+        }
+        .rdg-header-white .rdg-cell.rdg-editor-cell.rdg-editor-cell_ckeckbox[aria-selected="true"]{
+            border: none !important;
+            box-shadow: none;
+          }
+          .rdg-header-row > .rdg-cell-frozen-last{box-shadow: none;}
+          .contractCeilingModalHeader{border: 1px solid #EBEBEB;}
+          .rdg-header-white .rdg-row {border-bottom: 1px solid #EBEBEB;}
+          .rdg-header-white .rdg-row .rdg-cell-frozen-last{border-right:none !important; background-color: white;}

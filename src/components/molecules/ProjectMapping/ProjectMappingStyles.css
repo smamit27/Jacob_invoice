@@ -1,0 +1,12 @@
+.projectMapping-tableContainer .rdg-header-row > .rdg-cell-frozen-last{box-shadow: none !important;}
+.projectMapping-tableContainer .rdg-row .rdg-cell{color: #333333;font-style: normal;
+}
+.projectMapping-tableContainer .rdg-cell[aria-selected="true"]{box-shadow: none;}
+.newClientProjectModal label{font-size: 14px;}
+.newClientProjectModal .headerText{height: 56px !important;}
+.clientProjectModal .headerText{height: 56px !important;}
+.selectAllianceModal .selectAllianceModalheader{height: 72px !important;}
+.allianceFormContainer{padding: 10px 0px 10px 10px;}
+.selectAllianceModal-container .selectBtn{margin-left: 10px;}
+.searchProjectContainer .headerBox{height: 56px !important;}
+.searchProjectForm{padding: 20px!important;}

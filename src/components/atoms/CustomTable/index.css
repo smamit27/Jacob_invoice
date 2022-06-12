@@ -1,0 +1,232 @@
+.resizer {
+  display: inline-block;
+  background: blue;
+  width: 10px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  transform: translateX(50%);
+  z-index: 1;
+  touch-action:none;
+}
+
+td:focus {
+  border: 1px solid red;
+}
+
+td:focus-within {
+  outline: none;
+}
+
+.isResizing {
+}
+
+.custom-table-container-cell.focused {
+  border: 1px solid red;
+}
+
+.custom-table-container-cell.focused .custom-table-cell {
+  min-height: 37px;
+  height: 100%;
+  /* height: calc(100% - 3px); */
+}
+
+.custom-table-cell {
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  height: 100%;
+  /* height: calc(100% - 1px); */
+  padding: 0 10px;
+}
+
+.custom-table-cell .MuiInputBase-input, .custom-table-cell .MuiOutlinedInput-root {
+  padding: 0px !important;
+  font-size: 12px;
+}
+.custom-table-cell .MuiOutlinedInput-root {
+  padding-right: 39px !important;
+}
+
+.custom-table-cell.custom-table-header-cell {
+  font-family: "Jacobs Chronos Bold";
+  text-transform: uppercase;
+  font-size: 11px;
+  height: 100%;
+}
+
+.custom-table-cell:hover .custom-table-column-filter-container {
+  display: block;
+}
+
+.custom-table-cell .custom-table-column-filter-container {
+  display: none;
+}
+.custom-table-cell:hover .cell-menu-container {
+  display: block;
+}
+
+.custom-table-cell .cell-menu-container {
+  display: none;
+}
+.cell-menu-container {
+  position: absolute;
+  right: -5px;
+}
+
+.custom-table-cell .custom-table-column-filter-container.open {
+  display: block;
+}
+.custom-table-row > .MuiTableCell-root {
+  padding: 0 !important;
+  min-height: 40px;
+}
+.custom-table-row > .table-edit-button {
+  display: none;
+}
+
+.custom-table-row:hover > .table-edit-button {
+  display: block;
+}
+
+.table-edit-button {
+  position: absolute;
+  right: 20px;
+  top: 4px;
+}
+
+.custom-table-row-head > .MuiTableCell-root {
+  padding: 0 !important;
+}
+.custom-table-row {
+  /* border-bottom: 1px solid #EBEBEB; */
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+}
+.custom-table-row-even, .custom-table-row-even > .custom-table-cell-fixed {
+  background: #F8F8FE;
+}
+
+.custom-table-row-odd, .custom-table-row-odd > .custom-table-cell-fixed {
+  background: #EDEDFC;
+}
+
+.custom-table-row:hover {
+  background-color: #F0F0F0;
+}
+
+.custom-table-row:hover .custom-table-editable-cell,  .custom-table-row:hover > .custom-table-cell-fixed {
+  background-color: #F0F0F0;
+}
+
+
+.custom-table-editable-cell {
+  border: 0;
+  background: #fff;
+}
+
+.custom-table-editable-cell {
+  border-left: 1px solid rgba(224, 224, 224, 1);
+}
+.custom-table-row > .MuiTableCell-root:last-of-type > .custom-table-editable-cell {
+  border-right: 1px solid rgba(224, 224, 224, 1);
+}
+
+.custom-table-header-cell-fixed, .custom-table-cell-fixed {
+  position: sticky !important;
+  z-index: 1;
+}
+.custom-table-header-cell-fixed {
+  background: #fff;
+}
+
+.custom-table-cell {
+  font-size: 12px;
+  position: relative;
+}
+
+.custom-table-cell .MuiOutlinedInput-notchedOutline {
+  display: none;
+}
+
+.custom-table-cell .custom-table-column-filter .MuiOutlinedInput-notchedOutline {
+  display: block;
+}
+.custom-table-cell:hover .custom-table-sort {
+  display: block;
+}
+.custom-table-cell .custom-table-sort {
+  display: none;
+  margin-bottom: 3px;
+  margin-left: 5px;
+}
+
+.custom-table-cell .custom-table-sort.active {
+  display: block;
+}
+
+.custom-table-cell-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.disp-flex {
+  display: flex;
+  /* width: 100%; */
+}
+.full-width {
+  width: 100%;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.vcenter {
+  align-items: center;
+}
+
+.vstart {
+  align-items: flex-start;
+}
+
+.display-cell {
+  min-height: 38px;
+  height: 100%;
+  /* height: calc(100% - 2px); */
+  align-items: center;
+}
+
+.hand {
+  cursor: pointer;
+}
+.space-btwn {
+  justify-content: space-between;
+}
+
+.custom-table-no-data-container {
+  display: flex;
+  height: 150px;
+  position: sticky;
+  align-self: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.38);
+}
+
+.custom-table-no-data {
+  position: sticky;
+  left: 0px;
+}

@@ -1,0 +1,26 @@
+
+    .subContractor-ModalHeader{width: 1303px !important;
+        height: 56px; 
+    }
+        .sub-modal-text{
+            font-style: normal;
+            font-weight: 800 !important;
+            }
+            .subConLabel label{color: #777777;font-size: 12px;letter-spacing: 0.01em;}
+            .subContractorTable{ color: #231EDC!important;}
+            .subContractorTable span.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiButtonBase-root.Mui-disabled.MuiCheckbox-root.MuiCheckbox-colorPrimary.PrivateSwitchBase-root.Mui-checked.Mui-disabled {
+                color: #231EDC!important;
+            }
+            .subContractorTable .hand{padding: 0 38px 0px 10px;}
+            .subContractorTable .rdg-summary-row{border:1px solid #666666 !important;}
+            .subContractorTable .rdg-header-row.rdg-cell{padding-left: 3em;}
+            .subContractorTable .rdg-header-row > .rdg-cell-frozen-last{box-shadow: none!important;}
+            .subContractorTable .rdg-row .rdg-cell{padding: 0 0px 0px 15px;}
+            .subContractorTable .rdg-header-row .rdg-cell{padding: 0px 40px;}
+            .subConlisttable .rdg-row{border-bottom: 1px solid #E1E1E1} 
+           
+           
+
+            
+               
+            

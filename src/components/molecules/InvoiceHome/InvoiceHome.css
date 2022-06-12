@@ -1,0 +1,250 @@
+/*---------------------------BEM Naming Convetion---------------------------*/
+
+
+.invoiceOptions__container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invoiceHome__darkButton{
+    background-color: #555555 !important;
+    color: white !important;
+}
+
+
+.invoiceHome__button{
+background-color:#F0F0F0 !important;
+}
+
+.invoiceOptions__buttonMarginRight{
+    margin-right: 20px !important;
+}
+
+.invoiceOptions__rowsText{
+    font-family: Jacobs Chronos;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+
+.invoiceOptions__downArrow{
+width:8.97px;
+height:6.17px;
+margin-left: 7px;
+}
+
+
+/*-------------invoice model------------*/
+
+.createBatchInvoiceModel__header{
+    height:72px;
+    background-color: #555555;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.createBatchInvoiceModel__headerText{
+    font-size: 14px;
+    font-family: Jacobs Chronos;
+    color:white;
+}
+
+.createBatchInvoiceModel__body{
+    background-color: white;
+}
+
+.createBatchInvoiceModel__optionsContainer{
+    margin-top:15px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.createBatchInvoiceModel__tableContainer{
+padding: 0px 30px;
+}
+
+.createBatchInvoiceModel__buttonContainer{
+    display: flex;
+    padding:8px 30px;
+    justify-content: end;
+    border-top: 1px solid #EEEEEE;
+    
+}
+
+
+/*--------------------------------------*/
+.createEditInvoicesModel__header{
+    height:72px;
+    background-color: #555555;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 30px;
+}
+
+.createEditInvoicesModel__headerleftSide{
+    display:flex;
+    align-items: center;
+}
+
+.createEditInvoicesModel__close{
+    color: white !important;
+}
+
+.createEditInvoicesModel__infoIcon{
+    fill:lightgray !important;
+    margin-left:15px;
+}
+
+.createEditInvoicesModel__body{
+    background-color: white;
+    display: flex;
+}
+
+.createEditInvoicesModel__bodyLeft,.createBatchInvoiceModel__bodyRight{
+    width: 50%;
+}
+
+.createEditInvoicesModel__bodyLeftBorder{
+    border:1px solid #EEEEEE;
+}
+
+.createBatchInvoiceModel__bodySpacing{
+    padding-left: 30px;
+    padding-top:24px;
+    padding-bottom: 26px;
+    padding-right: 40px;
+}
+
+.createBatchInvoiceModel__bodyAutoComplete{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+}
+
+.createBatchInvoiceModel__bodyLeftBottomHeader{
+    display:flex;
+    padding-bottom: 16px;
+}
+
+.createBatchInvoiceModel__bodyRightInvoiceDatePrevious,.createBatchInvoiceModel__bodyRightInvoiceBatchNumberPrevious{
+    display: flex;
+    justify-content: space-between;
+}
+
+.createBatchInvoiceModel__bodyRightInvoiceDateCurrent ,.createBatchInvoiceModel__bodyRightInvoiceBatchNumberCurrent{
+    display:flex;
+    flex-direction: column;
+}
+
+.createEditInvoiceModel__buttonContainer{
+    display: flex;
+    justify-content: end;
+     border:1px solid #EEEEEE;
+}
+
+
+
+
+
+/*--------------------------------------*/
+
+
+
+/*---------post invoices model-----------*/
+
+.postInvoicesModel__header{
+    height:56px;
+    background-color: #555555;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 20px;
+}
+
+.postInvoicesModel__body{
+    background-color: white;
+}
+
+.postInvoicesModel__bodyDetailsContainer{
+    display:flex;
+    justify-content: space-between;
+    padding:0px 49px;
+}
+
+
+.postInvoicesModel__bodyDetails{
+    display: flex;
+    flex-direction: column;
+    padding:22px 10px;
+    flex:0.33;
+}
+
+.postInvoicesModel__bodyApplyFunding{
+     display: flex;
+    flex-direction: column;
+    padding:22px 59px;
+    flex:0.33;
+}
+
+.postInvoicesModel__bodyDate{
+    display: flex;
+    flex-direction: column;
+    padding-left:12px;
+    width:45%;
+    padding-bottom: 100px;
+    padding-left:59px;
+    padding-right: 59px;
+}
+
+.postInvoicesModel__buttonContainer{
+    display: flex;
+    justify-content: end;
+    padding:18px 0px;
+    border-top: 1px solid #E1E1E1;
+}
+
+.postInvoicesModel__postButton{
+    color:white !important;
+    background-color: #555555 !important;
+}
+
+
+
+
+
+/*--------------------------------------*/
+
+
+
+
+
+/*-----------split invoices model-------*/
+.splitInvoicesModel__header{
+    height:56px;
+    background-color:#555555;
+    color:white;
+    padding:16px 30px;
+
+}
+
+.splitInvoicesModel__body{
+    padding:24px 30px;
+}
+
+.splitInvoicesModel__footer{
+    border-top: 1px solid #E1E1E1;
+    display: flex;
+    justify-content: space-between;
+    padding:13px 25px;
+}
+
+/*--------------------------------------*/
+
+
+

@@ -1,0 +1,180 @@
+.no-boxshadow {
+    box-shadow: none !important;
+}
+.taskMappingModal {
+    width: 676px !important;
+    height: 600px
+}
+
+.taskMappingModal-header {
+    height: 56px !important;
+    left: 28.61%;
+    right: 45.69%;
+}
+
+.taskMappingModal-headerTitle {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.TaskMapping-labelText {
+    line-height: 18px;
+    font-family: Jacobs Chronos;
+    font-style: normal;
+    color: #505050;
+    height: 72px;
+}
+
+.TaskMapping-labelText1 {
+    font-family: Jacobs Chronos;
+    font-style: normal;
+    color: #505050;
+}
+
+.TaskMapping-radioLabel .MuiFormControlLabel-label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2C2C2C;
+    font-family: Jacobs Chronos;
+    font-style: normal;
+    font-weight: normal;
+    color: #2C2C2C;
+}
+
+.taskMapping-closeBox {
+    height: 56px !important;
+    position: absolute;
+    bottom: 0;
+}
+.taskLevelBox{padding: 24px !important;}
+.taskLevelBox label{
+    font-family: Jacobs Chronos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+line-height: 24px;  
+    color: #222222;
+    }
+    .taskLevelBox2{margin-left:12px !important}
+    .taskLevelBox2 label{
+        font-family: Jacobs Chronos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+    line-height: 24px;  
+        color: #222222;
+        }
+    .taskLevelBox1 label{
+        font-family: Jacobs Chronos;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+line-height: 24px;  
+        color: #222222;
+        }
+        .slideProgressBar{margin-top:22px;margin-left: 10px;} 
+        .overrideDashText span{
+            font-family: Jacobs Chronos,Roboto,Helvetica,Arial;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 15px;
+            
+            color: #747474;}
+            .overrideDashText1{
+                padding-left: 28px;
+            }
+            .overrideCharacterText {
+                padding-left: 28px;
+            }
+            .overrideCharacterText1 {
+                padding-left: 12px;
+            }
+            .overrideDashdiv{padding-left: 12px;
+            }
+            .overrideCharacterText3{padding-left: 17px;}
+            .overrideDashText3 span{
+                font-family: Jacobs Chronos,Roboto,Helvetica,Arial;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 15px;
+                
+                color: #747474;}
+
+            .overrideDashText3{padding-left: 15px;}
+            
+            .overrideDashdiv span{
+                font-family: Jacobs Chronos,Roboto,Helvetica,Arial;;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 15px;
+                
+                color: #747474;}
+.quickOverrideDashText span{font-family: Jacobs Chronos,Roboto,Helvetica,Arial;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 15px;}
+.quickOverrideDashText{padding-left: 28px;}
+.makeStyles-borderListCollection-10{border: none !important;}
+/* .taskLevelBox1{padding: 24px !important;} */
+.makeStyles-borderListCollection-28{border: none !important;}
+.makeStyles-borderListCollection-31 {
+                border: none !important;
+            }
+            .quickTaskcharModal{
+                 /*width: 1140px !important; */
+                /* background: #FDFDFD; */
+                /* height: 720px; */
+                background-color:#FDFDFD;
+            }
+
+            .quickTaskHeadertitle{height: 72px !important;
+                /* width: 1140px !important; */
+                /* border-bottom: 1px solid #EEEEEE !important; */
+                }
+       
+                .quickTaskcharModal label{color: #222222;}
+                /* .quickTaskcharModal span{color: #222222;} */
+                .radioGroupText label{color: #222222;font-weight: normal;font-size: 14px;}
+                .quickTaskFooter{border: 1px solid #EEEEEE;}
+                .previewTaskTable th{font-weight: bold;
+                    font-size: 10px;
+                    line-height: 16px;}
+                    .MuiTableCell-sizeMedium{font-weight: bold !important;
+                        font-size: 10px!important;
+                        line-height: 16px !important;}
+                        .taskNumberForm.css-1hzi63y-MuiGrid-root{margin-top: 0px;}
+                        .previousMapContainer{margin-top: 14px !important;}
+                        .clearButton{float: right;}
+                        .radioGroupText1{margin-left:12px !important;margin-top:10px!important;}
+                        .mapTaskBtn{margin-left:28px !important}
+                        .groupingTaskContainer{padding: 19px;}
+                        .groupingTaskLevelBox{padding: 28px !important;border-right: 1px solid #EBEBEB;}
+                        .btnTaskLevel {
+                            margin-left: 15px !important;
+                        }
+                        .collTaskbdr{border: none!important;}
+                        .makeStyles-borderListCollection-13{border: none!important;}
+                        .groupTaskConfig .groupTaskConfig-title{font-family: Jacobs Chronos;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color:#777777;
+                            }
+                            .groupTaskConfig Label{
+                            font-family: Jacobs Chronos;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 21px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #222222;
+                            }
+                            .taskLevelBox1{background-color: #FDFDFD;}

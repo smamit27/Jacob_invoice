@@ -1,0 +1,150 @@
+/*---------------------------BEM Naming Convetion---------------------------*/
+
+
+.eventOptions__container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eventHome__darkButton{
+    background-color: #555555 !important;
+    color: white !important;
+}
+
+
+.eventHome__button{
+background-color:#F0F0F0 !important;
+}
+
+.eventOptions__buttonMarginRight{
+    margin-right: 20px !important;
+}
+
+.eventOptions__rowsText{
+    font-family: Jacobs Chronos;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+
+.eventOptions__downArrow{
+width:8.97px;
+height:6.17px;
+margin-left: 7px;
+}
+
+
+/*-------------invoice model------------*/
+
+.createEventModel__header{
+    height:72px;
+    background-color: #555555;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.createEventModel__headerText{
+    font-size: 14px;
+    font-family: Jacobs Chronos;
+    color:white;
+}
+
+.createEventModel__body{
+    background-color: white;
+}
+
+.createEventModel__optionsContainer{
+    margin-top:15px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.createEventModel__tableContainer{
+padding: 0px 30px;
+}
+
+.createEventModel__buttonContainer{
+    display: flex;
+    padding:8px 30px;
+    justify-content: end;
+    border-top: 1px solid #EEEEEE;
+    
+}
+
+
+/*--------------------------------------*/
+
+/*--------------------------------------*/
+.eventBasicsSectionContainer {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+}
+.eventBasicsSection {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+}
+
+.eventTasksSection {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.eventBasicsSection input {
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.eventPopup__darkButton {
+    background-color: #555555 !important;
+    color: white !important;
+    margin-left: 2rem !important;
+}
+    
+.configurationSection {
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventGrid {
+    height: 300px !important;
+    overflow: auto !important;
+}
+
+.addRow {
+    margin-right: 1rem !important;
+}
+
+.datePickerTextField {
+    margin-top: 0 !important;
+}
+
+.modelForm {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.modelFormSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.modelSelect {
+    min-width: 200px  !important;
+}
+
+.modelButtonContainer {
+    display: flex;
+    justify-content: end;
+    padding: 0 2rem 1rem 2rem ;
+}
